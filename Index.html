@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Comm Shoe Listing UI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  
+  <div class="header">
+    <span class="logo">E-Comm</span>
+    <nav class="navbar">
+      <a href="#" class="active">HOME</a>
+      <a href="#">BAG</a>
+      <a href="#">SNEAKERS</a>
+      <a href="#">BELT</a>
+      <a href="#">CONTACT</a>
+    </nav>
+    <div class="cart-info">
+      <span class="cart-icon">&#128722;</span>
+      <span>items: <b>5</b></span>
+      <span>$509.97</span>
+    </div>
+  </div>
+
+  <div class="main-layout">
+    
+    <aside class="sidebar">
+      <div class="filter-group">
+        <div class="filter-title">Hot Deals</div>
+        <div class="filter-list">
+          <label><input type="checkbox" checked> Nike</label>
+          <label><input type="checkbox"> Airmax</label>
+          <label><input type="checkbox"> Adidas</label>
+          <label><input type="checkbox"> Vans</label>
+        </div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-title">PRICES</div>
+        <div>Range:</div>
+        <div class="slider-group">
+          <input type="range" min="13.99" max="125.99" value="50" class="slider-bar">
+          <span>$13.99 - $125.99</span>
+        </div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-title">COLOR</div>
+        <div class="color-options">
+          <span class="color-dot blue"></span>
+          <span class="color-dot black"></span>
+          <span class="color-dot red"></span>
+          <span class="color-dot yellow"></span>
+          <span class="color-dot pink"></span>
+          <span class="color-dot green"></span>
+        </div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-title">BRAND</div>
+        <div class="filter-list">
+          <label><input type="checkbox" checked> Nike</label>
+          <label><input type="checkbox"> Adidas</label>
+          <label><input type="checkbox"> Skechers</label>
+        </div>
+        <a href="#" style="font-size:0.95rem;color:#0072ff;margin-top:9px;display:inline-block;">More</a>
+      </div>
+    </aside>
+
+    
+    <main class="content">
+      
+      <section class="hero-banner">
+        <div class="hero-text">
+          <div class="hero-title">Adidas Men Running Sneakers</div>
+          <div class="hero-desc">Experience comfort and design. Run right in this sneaker.</div>
+          <a href="#" class="hero-link">Shop Now</a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1519864600265-abb22706c2c4?auto=format&fit=crop&w=400&q=80" alt="Sneaker" class="hero-img">
+      </section>
+      
+      <div class="product-controls">
+        <span>Items</span>
+        <span>Sort By
+          <select>
+            <option>Popularity</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+          </select>
+        </span>
+        <span>Show
+          <input type="number" min="1" max="24" value="12" style="width:38px;">
+        </span>
+        <span>
+          <button style="background:#eaf4ff;color:#0072ff;border:none;padding:4px 12px;border-radius:5px;">&#9776;</button>
+          <button style="background:#eaf4ff;color:#0072ff;border:none;padding:4px 12px;border-radius:5px;">&#9638;</button>
+        </span>
+      </div>
+      
+      <div class="product-grid">
+        
+        <div class="product-card hot">
+          <span class="product-badge">HOT</span>
+          <img src="https://images.unsplash.com/photo-1519864600265-abb22706c2c4?auto=format&fit=crop&w=400&q=80" class="product-img" alt="Nike Air Max 270 React">
+          <div class="product-title">Nike Air Max 270 React</div>
+          <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (4.0)</div>
+          <div class="product-price">$129.99 <span class="product-old-price">$149.99</span></div>
+          <div class="product-actions"><button>Add to cart</button></div>
+        </div>
+        
+        <div class="product-card hot">
+          <span class="product-badge">HOT</span>
+          <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" class="product-img" alt="Nike Air Max 270 React">
+          <div class="product-title">Nike Air Max 270 React</div>
+          <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (4.2)</div>
+          <div class="product-price">$139.99 <span class="product-old-price">$159.99</span></div>
+          <div class="product-actions"><button>Add to cart</button></div>
+        </div>
+        
+        <div class="product-card hot">
+          <span class="product-badge">HOT</span>
+          <img src="https://images.unsplash.com/photo-1528701800484-905909a0e784?auto=format&fit=crop&w=400&q=80" class="product-img" alt="Nike Air Max 270 React">
+          <div class="product-title">Nike Air Max 270 React</div>
+          <div class="product-rating">&#9733;&#9733;&#9733;&#9734;&#9734; (3.8)</div>
+          <div class="product-price">$99.99 <span class="product-old-price">$129.99</span></div>
+          <div class="product-actions"><button>Add to cart</button></div>
+        </div>
+        
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1517263904808-5dc5b8e6a6ed?auto=format&fit=crop&w=400&q=80" class="product-img" alt="Nike Air Max 270 React">
+          <div class="product-title">Nike Air Max 270 React</div>
+          <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733; (4.7)</div>
+          <div class="product-price">$149.99 <span class="product-old-price">$169.99</span></div>
+          <div class="product-actions"><button>Add to cart</button></div>
+        </div>
+        
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" class="product-img" alt="Nike Air Max 270 React">
+          <div class="product-title">Nike Air Max 270 React</div>
+          <div class="product-rating">&#9733;&#9733;&#9733;&#9734;&#9734; (3.9)</div>
+          <div class="product-price">$119.99 <span class="product-old-price">$139.99</span></div>
+          <div class="product-actions"><button>Add to cart</button></div>
+        </div>
+        
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" class="product-img" alt="Nike Air Max 270 React">
+          <div class="product-title">Nike Air Max 270 React</div>
+          <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (4.1)</div>
+          <div class="product-price">$129.99 <span class="product-old-price">$149.99</span></div>
+          <div class="product-actions"><button>Add to cart</button></div>
+        </div>
+      </div>
+      
+      <div class="pagination">
+        <button class="page-btn active">1</button>
+        <button class="page-btn">2</button>
+        <button class="page-btn">3</button>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
